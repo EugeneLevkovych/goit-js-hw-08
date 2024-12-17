@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+/* =========== RESET =========== */
+ul,
+ol,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* ------------------------Task------------------- */
+ul {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.gallery {
+  max-width: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-item {
+  width: calc((100% - 48px) / 3);
+}
