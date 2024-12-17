@@ -44,3 +44,11 @@ ul {
 .gallery-item {
   width: calc((100% - 48px) / 3);
 }
+
+.gallery-image:hover,
+.gallery-image:focus {
+  transform: scale(1.05);
+}
+.gallery-image {
+  transition: all 0.3s ease-in-out;
+}
